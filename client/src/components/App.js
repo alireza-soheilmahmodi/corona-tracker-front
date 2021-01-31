@@ -8,13 +8,10 @@ import Sidebar from "./Sidebar";
 import Overview from "./Overview";
 import Patients from "./Patients";
 
-const Content = () => <h1>content 1</h1>;
-const Contentf = () => <h1>content 2</h1>;
-
 class App extends Component {
-  // componentDidMount() {
-  //   this.props.fetchCovid();
-  // }
+  componentDidMount() {
+    this.props.fetchCovid();
+  }
 
   render() {
     return (

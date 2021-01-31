@@ -90,3 +90,26 @@ hr {
   float: right;
   color: gray;
 }
+
+.report-card {
+  text-align: center;
+  margin-top: 40px;
+  transition: all 0.5s;
+}
+
+.report-card:hover {
+  color: blue;
+  border: 1px solid blue;
+}
+
+.report-card h5 {
+  color: rgb(134, 123, 123);
+}
+
+.report-card:hover h5 {
+  color: blue;
+}
+.report-card p {
+  font-size: 30px;
+  font-weight: bold;
+}

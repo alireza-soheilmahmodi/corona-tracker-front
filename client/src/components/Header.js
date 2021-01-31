@@ -7,7 +7,7 @@ const Header = (props) => {
       <div className="row">
         <label className="header-title col-xs-12 col-md-6">{props.title}</label>
         <div className="col-xs-12 col-md-6">
-          <img className="profile-icon" src={logo} />
+          <img className="profile-icon" src={logo} alt="profile" />
           <a href="/" className="nav-link name-box">
             alex salmond
           </a>
