@@ -67,14 +67,14 @@ class Navbar extends Component {
               <hr></hr>
               <li className="nav-item">
                 <Link to={"/"} className="nav-link">
-                  <i className="fa fa-external-link mright"></i>
+                  <i className="fa fa-gear mright"></i>
                   Setting
                 </Link>
               </li>
 
               <li className="nav-item">
                 <Link to={"/"} className="nav-link">
-                  <i className="fa fa-external-link mright"></i>
+                  <i className="fa fa-sign-out mright"></i>
                   Log out
                 </Link>
               </li>

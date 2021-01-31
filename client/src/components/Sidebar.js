@@ -55,14 +55,14 @@ class Sidebar extends Component {
 
           <li className="nav-item">
             <Link to={"/"} className="nav-link">
-              <i className="fa fa-external-link"></i>
+              <i className="fa fa-gear"></i>
               Setting
             </Link>
           </li>
 
           <li className="nav-item">
             <Link to={"/"} className="nav-link">
-              <i className="fa fa-external-link"></i>
+              <i className="fa fa-sign-out"></i>
               Log out
             </Link>
           </li>

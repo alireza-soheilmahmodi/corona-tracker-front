@@ -5,6 +5,8 @@ import * as actions from "../actions";
 import "./app.css";
 import Navber from "./Navbar";
 import Sidebar from "./Sidebar";
+import Overview from "./Overview";
+import Patients from "./Patients";
 
 const Content = () => <h1>content 1</h1>;
 const Contentf = () => <h1>content 2</h1>;
@@ -23,8 +25,8 @@ class App extends Component {
             <div className="row">
               <Sidebar />
               <div className="col-md-9 col-lg-10 col-sm-12" id="main">
-                <Route exact path="/" component={Content} />
-                <Route exact path="/patients" component={Contentf} />
+                <Route exact path="/" component={Overview} />
+                <Route exact path="/patients" component={Patients} />
               </div>
             </div>
           </div>
