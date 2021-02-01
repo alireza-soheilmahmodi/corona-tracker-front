@@ -23,7 +23,7 @@ class Navbar extends Component {
           <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link to={"/"} className="nav-link active">
+                <Link to={"/"} className="nav-link">
                   <i className="fa fa-pie-chart mright"></i>
                   Overview
                 </Link>
