@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 class Sidebar extends Component {
   render() {
@@ -10,61 +10,98 @@ class Sidebar extends Component {
         </label>
         <ul className="nav flex-column">
           <li className="nav-item">
-            <Link to={"/"} className="nav-link active">
+            <NavLink
+              to="/"
+              exact
+              className="navbar__link"
+              activeClassName="navbar__link--active"
+            >
               <i className="fa fa-pie-chart"></i>
               Overview
-            </Link>
+            </NavLink>
           </li>
           <li className="nav-item">
-            <Link to={"patients"} className="nav-link">
+            <NavLink
+              to="patients"
+              className="navbar__link"
+              activeClassName="navbar__link--active"
+            >
               <i className="fa fa-medkit"></i>
               Patients
-            </Link>
+            </NavLink>
           </li>
           <li className="nav-item">
-            <Link to={"/"} className="nav-link">
+            <NavLink
+              to="/1"
+              className="navbar__link"
+              activeClassName="navbar__link--active"
+            >
               <i className="fa fa-crosshairs"></i>
               Link number 1
-            </Link>
+            </NavLink>
           </li>
           <li className="nav-item">
-            <Link to={"/"} className="nav-link">
+            <NavLink
+              to="/2"
+              className="navbar__link"
+              activeClassName="navbar__link--active"
+            >
               <i className="fa fa-desktop"></i>
               Link number 2
-            </Link>
+            </NavLink>
           </li>
           <li className="nav-item">
-            <Link to={"/"} className="nav-link">
+            <NavLink
+              to="/3"
+              className="navbar__link"
+              activeClassName="navbar__link--active"
+            >
               <i className="fa fa-dot-circle-o"></i>
               Link number 3
-            </Link>
+            </NavLink>
           </li>
           <li className="nav-item">
-            <Link to={"/"} className="nav-link">
+            <NavLink
+              to="/4"
+              className="navbar__link"
+              activeClassName="navbar__link--active"
+            >
               <i className="fa fa-envelope"></i>
               Link number 4
-            </Link>
+            </NavLink>
           </li>
           <li className="nav-item">
-            <Link to={"/"} className="nav-link">
+            <NavLink
+              to="/5"
+              className="navbar__link"
+              activeClassName="navbar__link--active"
+            >
               <i className="fa fa-external-link"></i>
               Link number 5
-            </Link>
+            </NavLink>
           </li>
           <hr></hr>
 
           <li className="nav-item">
-            <Link to={"/"} className="nav-link">
+            <NavLink
+              to="/6"
+              className="navbar__link"
+              activeClassName="navbar__link--active"
+            >
               <i className="fa fa-gear"></i>
               Setting
-            </Link>
+            </NavLink>
           </li>
 
           <li className="nav-item">
-            <Link to={"/"} className="nav-link">
+            <NavLink
+              to="/7"
+              className="navbar__link"
+              activeClassName="navbar__link--active"
+            >
               <i className="fa fa-sign-out"></i>
               Log out
-            </Link>
+            </NavLink>
           </li>
         </ul>
       </div>
