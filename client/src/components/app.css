@@ -113,3 +113,50 @@ hr {
   font-size: 30px;
   font-weight: bold;
 }
+
+#patients-table {
+  width: 90%;
+  margin-top: 40px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+#patients-table h5 {
+  padding: 20px 0;
+}
+
+#patients-table table thead {
+  color: gray;
+  font-size: 14px;
+}
+
+#patients-table table tbody img {
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+  box-sizing: content-box;
+  padding: 10px 5px;
+  float: left;
+}
+
+#patients-table table tbody tr .user-detail {
+  padding: 5px 0 2px 0;
+}
+
+#patients-table table tbody tr .user-detail span:nth-child(3) {
+  color: gray;
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+#patients-table table tbody tr .birth-detail span:nth-child(3) {
+  color: gray;
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+#patients-table table tbody tr .register-date span:nth-child(3) {
+  color: gray;
+  font-size: 14px;
+  font-weight: lighter;
+}

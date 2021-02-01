@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../profile.jpeg";
+import logo from "../img/profile.jpeg";
 
 const Header = (props) => {
   return (

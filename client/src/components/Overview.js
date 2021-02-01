@@ -26,7 +26,7 @@ class Overview extends Component {
     for (let i = 0; i < 31; i++) {
       data.push(Math.floor(Math.random() * 100000));
     }
-    let massPopChart = new Chart(myChart, {
+    new Chart(myChart, {
       type: "line",
       data: {
         labels,
